@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD20E3451CEB5B1B004088A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20E3441CEB5B1B004088A9 /* main.m */; };
+		BD20E3481CEB5B1B004088A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20E3471CEB5B1B004088A9 /* AppDelegate.m */; };
+		BD20E34B1CEB5B1B004088A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20E34A1CEB5B1B004088A9 /* ViewController.m */; };
+		BD20E34E1CEB5B1B004088A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20E34C1CEB5B1B004088A9 /* Main.storyboard */; };
+		BD20E3501CEB5B1C004088A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD20E34F1CEB5B1B004088A9 /* Assets.xcassets */; };
+		BD20E3531CEB5B1C004088A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20E3511CEB5B1C004088A9 /* LaunchScreen.storyboard */; };
+		BD20E35B1CEB5B3C004088A9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E35A1CEB5B3C004088A9 /* libz.tbd */; };
+		BD20E35D1CEB5B42004088A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E35C1CEB5B42004088A9 /* AVFoundation.framework */; };
+		BD20E35F1CEB5B49004088A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E35E1CEB5B49004088A9 /* SystemConfiguration.framework */; };
+		BD20E3611CEB5B53004088A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E3601CEB5B53004088A9 /* Foundation.framework */; };
+		BD20E3631CEB5B5D004088A9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E3621CEB5B5D004088A9 /* CoreTelephony.framework */; };
+		BD20E3651CEB5B66004088A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E3641CEB5B66004088A9 /* AudioToolbox.framework */; };
+		BD20E3671CEB5B6B004088A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E3661CEB5B6B004088A9 /* UIKit.framework */; };
+		BD20E3691CEB5B76004088A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E3681CEB5B76004088A9 /* CoreLocation.framework */; };
+		BD20E36B1CEB5B7C004088A9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E36A1CEB5B7C004088A9 /* AddressBook.framework */; };
+		BD20E36D1CEB5B81004088A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E36C1CEB5B81004088A9 /* QuartzCore.framework */; };
+		BD20E36F1CEB5B8E004088A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E36E1CEB5B8E004088A9 /* CoreGraphics.framework */; };
+		BD20E3731CEB5DED004088A9 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD20E3721CEB5DED004088A9 /* iflyMSC.framework */; };
+		BD20E37D1CEB617F004088A9 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20E3761CEB617F004088A9 /* IATConfig.m */; };
+		BD20E3801CEB617F004088A9 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20E37C1CEB617F004088A9 /* ISRDataHelper.m */; };
+		BD6808101CEF4E27007A21EC /* ZZiflyTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD68080F1CEF4E27007A21EC /* ZZiflyTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD20E3401CEB5B1B004088A9 /* 语音识别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "语音识别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD20E3441CEB5B1B004088A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD20E3461CEB5B1B004088A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD20E3471CEB5B1B004088A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD20E3491CEB5B1B004088A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD20E34A1CEB5B1B004088A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD20E34D1CEB5B1B004088A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD20E34F1CEB5B1B004088A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD20E3521CEB5B1C004088A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD20E3541CEB5B1C004088A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD20E35A1CEB5B3C004088A9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BD20E35C1CEB5B42004088A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BD20E35E1CEB5B49004088A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BD20E3601CEB5B53004088A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD20E3621CEB5B5D004088A9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BD20E3641CEB5B66004088A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD20E3661CEB5B6B004088A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD20E3681CEB5B76004088A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BD20E36A1CEB5B7C004088A9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BD20E36C1CEB5B81004088A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BD20E36E1CEB5B8E004088A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD20E3721CEB5DED004088A9 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		BD20E3751CEB617F004088A9 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		BD20E3761CEB617F004088A9 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		BD20E37B1CEB617F004088A9 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		BD20E37C1CEB617F004088A9 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		BD68080E1CEF4E27007A21EC /* ZZiflyTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZiflyTool.h; sourceTree = "<group>"; };
+		BD68080F1CEF4E27007A21EC /* ZZiflyTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZiflyTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD20E33D1CEB5B1B004088A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20E3731CEB5DED004088A9 /* iflyMSC.framework in Frameworks */,
+				BD20E36F1CEB5B8E004088A9 /* CoreGraphics.framework in Frameworks */,
+				BD20E36D1CEB5B81004088A9 /* QuartzCore.framework in Frameworks */,
+				BD20E36B1CEB5B7C004088A9 /* AddressBook.framework in Frameworks */,
+				BD20E3691CEB5B76004088A9 /* CoreLocation.framework in Frameworks */,
+				BD20E3671CEB5B6B004088A9 /* UIKit.framework in Frameworks */,
+				BD20E3651CEB5B66004088A9 /* AudioToolbox.framework in Frameworks */,
+				BD20E3631CEB5B5D004088A9 /* CoreTelephony.framework in Frameworks */,
+				BD20E3611CEB5B53004088A9 /* Foundation.framework in Frameworks */,
+				BD20E35F1CEB5B49004088A9 /* SystemConfiguration.framework in Frameworks */,
+				BD20E35D1CEB5B42004088A9 /* AVFoundation.framework in Frameworks */,
+				BD20E35B1CEB5B3C004088A9 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD20E3371CEB5B1B004088A9 = {
+			isa = PBXGroup;
+			children = (
+				BD20E3721CEB5DED004088A9 /* iflyMSC.framework */,
+				BD20E36E1CEB5B8E004088A9 /* CoreGraphics.framework */,
+				BD20E36C1CEB5B81004088A9 /* QuartzCore.framework */,
+				BD20E36A1CEB5B7C004088A9 /* AddressBook.framework */,
+				BD20E3681CEB5B76004088A9 /* CoreLocation.framework */,
+				BD20E3661CEB5B6B004088A9 /* UIKit.framework */,
+				BD20E3641CEB5B66004088A9 /* AudioToolbox.framework */,
+				BD20E3621CEB5B5D004088A9 /* CoreTelephony.framework */,
+				BD20E3601CEB5B53004088A9 /* Foundation.framework */,
+				BD20E35E1CEB5B49004088A9 /* SystemConfiguration.framework */,
+				BD20E35C1CEB5B42004088A9 /* AVFoundation.framework */,
+				BD20E35A1CEB5B3C004088A9 /* libz.tbd */,
+				BD20E3421CEB5B1B004088A9 /* 语音识别 */,
+				BD20E3411CEB5B1B004088A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD20E3411CEB5B1B004088A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD20E3401CEB5B1B004088A9 /* 语音识别.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD20E3421CEB5B1B004088A9 /* 语音识别 */ = {
+			isa = PBXGroup;
+			children = (
+				BD20E3741CEB617F004088A9 /* isr */,
+				BD20E3461CEB5B1B004088A9 /* AppDelegate.h */,
+				BD20E3471CEB5B1B004088A9 /* AppDelegate.m */,
+				BD20E3491CEB5B1B004088A9 /* ViewController.h */,
+				BD20E34A1CEB5B1B004088A9 /* ViewController.m */,
+				BD68080E1CEF4E27007A21EC /* ZZiflyTool.h */,
+				BD68080F1CEF4E27007A21EC /* ZZiflyTool.m */,
+				BD20E34C1CEB5B1B004088A9 /* Main.storyboard */,
+				BD20E34F1CEB5B1B004088A9 /* Assets.xcassets */,
+				BD20E3511CEB5B1C004088A9 /* LaunchScreen.storyboard */,
+				BD20E3541CEB5B1C004088A9 /* Info.plist */,
+				BD20E3431CEB5B1B004088A9 /* Supporting Files */,
+			);
+			path = "语音识别";
+			sourceTree = "<group>";
+		};
+		BD20E3431CEB5B1B004088A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD20E3441CEB5B1B004088A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD20E3741CEB617F004088A9 /* isr */ = {
+			isa = PBXGroup;
+			children = (
+				BD20E3751CEB617F004088A9 /* IATConfig.h */,
+				BD20E3761CEB617F004088A9 /* IATConfig.m */,
+				BD20E37B1CEB617F004088A9 /* ISRDataHelper.h */,
+				BD20E37C1CEB617F004088A9 /* ISRDataHelper.m */,
+			);
+			path = isr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD20E33F1CEB5B1B004088A9 /* 语音识别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD20E3571CEB5B1C004088A9 /* Build configuration list for PBXNativeTarget "语音识别" */;
+			buildPhases = (
+				BD20E33C1CEB5B1B004088A9 /* Sources */,
+				BD20E33D1CEB5B1B004088A9 /* Frameworks */,
+				BD20E33E1CEB5B1B004088A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "语音识别";
+			productName = "语音识别";
+			productReference = BD20E3401CEB5B1B004088A9 /* 语音识别.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD20E3381CEB5B1B004088A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZZBelieve;
+				TargetAttributes = {
+					BD20E33F1CEB5B1B004088A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BD20E33B1CEB5B1B004088A9 /* Build configuration list for PBXProject "语音识别" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD20E3371CEB5B1B004088A9;
+			productRefGroup = BD20E3411CEB5B1B004088A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD20E33F1CEB5B1B004088A9 /* 语音识别 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD20E33E1CEB5B1B004088A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20E3531CEB5B1C004088A9 /* LaunchScreen.storyboard in Resources */,
+				BD20E3501CEB5B1C004088A9 /* Assets.xcassets in Resources */,
+				BD20E34E1CEB5B1B004088A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD20E33C1CEB5B1B004088A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20E3801CEB617F004088A9 /* ISRDataHelper.m in Sources */,
+				BD20E34B1CEB5B1B004088A9 /* ViewController.m in Sources */,
+				BD20E3481CEB5B1B004088A9 /* AppDelegate.m in Sources */,
+				BD20E37D1CEB617F004088A9 /* IATConfig.m in Sources */,
+				BD20E3451CEB5B1B004088A9 /* main.m in Sources */,
+				BD6808101CEF4E27007A21EC /* ZZiflyTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD20E34C1CEB5B1B004088A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD20E34D1CEB5B1B004088A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD20E3511CEB5B1C004088A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD20E3521CEB5B1C004088A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD20E3551CEB5B1C004088A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD20E3561CEB5B1C004088A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD20E3581CEB5B1C004088A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "语音识别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiajun.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD20E3591CEB5B1C004088A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "语音识别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiajun.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD20E33B1CEB5B1B004088A9 /* Build configuration list for PBXProject "语音识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD20E3551CEB5B1C004088A9 /* Debug */,
+				BD20E3561CEB5B1C004088A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD20E3571CEB5B1C004088A9 /* Build configuration list for PBXNativeTarget "语音识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD20E3581CEB5B1C004088A9 /* Debug */,
+				BD20E3591CEB5B1C004088A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD20E3381CEB5B1B004088A9 /* Project object */;
+}
